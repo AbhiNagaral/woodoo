@@ -1,0 +1,7 @@
+{
+  "@@locale": "hi",
+  "appTitle": "वुडू",
+  "login": "लॉगिन",
+  "logout": "लॉगआउट",
+  "welcomeUser": "स्वागत है {name}"
+}

@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "appTitle": "Woodoo",
+  "login": "Login",
+  "logout": "Logout",
+  "welcomeUser": "Welcome {name}",
+  "@welcomeUser": {
+    "description": "Welcome message",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}
