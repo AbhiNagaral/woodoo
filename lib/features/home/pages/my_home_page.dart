@@ -31,8 +31,15 @@ class MyHomePage extends ConsumerWidget {
         ],
       ),
       body: Center(
-        child: Text(
-          context.appStrings.welcomeUser('Abhijeet'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              context.appStrings.welcomeUser('Abhijeet'),
+            ),
+            Text(context.appStrings.appTitle),
+            Text(context.appStrings.login),
+          ],
         ),
       ),
     );
