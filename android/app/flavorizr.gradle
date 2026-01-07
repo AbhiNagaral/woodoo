@@ -1,0 +1,21 @@
+android {
+    flavorDimensions += "environment"
+
+    productFlavors {
+        dev {
+            dimension "environment"
+            applicationId "com.woodoo.dev"
+            resValue "string", "app_name", "Woodoo Dev"
+        }
+        uat {
+            dimension "environment"
+            applicationId "com.woodoo.uat"
+            resValue "string", "app_name", "Woodoo UAT"
+        }
+        prod {
+            dimension "environment"
+            applicationId "com.woodoo"
+            resValue "string", "app_name", "Woodoo"
+        }
+    }
+}
